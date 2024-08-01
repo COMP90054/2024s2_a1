@@ -245,6 +245,12 @@ Multi-agent Path-finding problem is currently a hot research topic given recent 
 
 Implement the **CBS algorithm** discussed above by inserting your code into the template indicated by comment ```*** YOUR CODE HERE FOR TASK 2 ***```, you can view the location at this link: [search.py#L127](search.py#L127). 
 
+You can visualize the path of your agent by using the following command"
+```bash
+python pacman.py -l mapfTest -p SearchAgent -a fn=cbs,prob=MAPFProblem
+```
+You can also create your own layout files in the `layouts` directory and changed the `-l` arguement in the above command.
+
 We have a local autograder to test your code locally ([Local Autograder](#local-autograder)).
 
 For task 2, `autograder` seek for the optimal solution length and soundness of your solution. 
